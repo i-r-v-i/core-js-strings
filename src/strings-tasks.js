@@ -5,7 +5,7 @@
  *                                                                                           *
  ******************************************************************************************* */
 
-/**
+/** 1
  * Returns the length of the given string.
  *
  * @param {string} value - The input string to calculate the length of.
@@ -23,7 +23,7 @@ function getStringLength(/* value */) {
   throw new Error('Not implemented');
 }
 
-/**
+/** 2
  * Returns true if the value is a string, otherwise returns false.
  *
  * @param {string} value - The value to check if it's a string.
@@ -41,7 +41,7 @@ function isString(/* value */) {
   throw new Error('Not implemented');
 }
 
-/**
+/** 3
  * Returns the result of concatenation of two strings.
  *
  * @param {string} value1 - The first string to concatenate.
@@ -57,7 +57,7 @@ function concatenateStrings(/* value1, value2 */) {
   throw new Error('Not implemented');
 }
 
-/**
+/** 4
  * Returns the first character of the given string.
  *
  * @param {string} value - The input string to extract the first character from.
@@ -72,7 +72,7 @@ function getFirstChar(/* value */) {
   throw new Error('Not implemented');
 }
 
-/**
+/** 5
  * Removes leading and trailing whitespace characters from the string.
  *
  * @param {string} value - The input string to remove leading and trailing whitespaces from.
@@ -87,7 +87,7 @@ function removeLeadingAndTrailingWhitespaces(/* value */) {
   throw new Error('Not implemented');
 }
 
-/**
+/** 6
  * Removes only leading whitespace characters from the string.
  *
  * @param {string} value - The input string to remove leading whitespaces from.
@@ -102,7 +102,7 @@ function removeLeadingWhitespaces(/* value */) {
   throw new Error('Not implemented');
 }
 
-/**
+/** 7
  * Removes only trailing whitespace characters from the string.
  *
  * @param {string} value - The input string to remove trailing whitespaces from.
@@ -117,7 +117,7 @@ function removeTrailingWhitespaces(/* value */) {
   throw new Error('Not implemented');
 }
 
-/**
+/** 8
  * Returns a string that is repeated the specified number of times.
  *
  * @param {string} str - The string to repeat.
@@ -134,7 +134,7 @@ function repeatString(/* str, times */) {
   throw new Error('Not implemented');
 }
 
-/**
+/** 9
  * Remove the first occurrence of a substring from a string.
  *
  * @param {string} str - The input string.
@@ -150,7 +150,7 @@ function removeFirstOccurrences(/* str, value */) {
   throw new Error('Not implemented');
 }
 
-/**
+/** 10
  * Remove the last occurrence of a substring from a string.
  *
  * @param {string} str - The input string.
@@ -166,7 +166,7 @@ function removeLastOccurrences(/* str, value */) {
   throw new Error('Not implemented');
 }
 
-/**
+/** 11
  * Calculate the sum of character codes of the given string.
  *
  * @param {string} str - The input string.
@@ -182,7 +182,7 @@ function sumOfCodes(/* str */) {
   throw new Error('Not implemented');
 }
 
-/**
+/** 12
  * Checks if a string starts with a specific substring.
  *
  * @param {string} str - The input string.
@@ -197,7 +197,7 @@ function startsWith(/* str, substr */) {
   throw new Error('Not implemented');
 }
 
-/**
+/** 13
  * Checks if a string ends with a specific substring.
  *
  * @param {string} str - The input string.
@@ -212,7 +212,7 @@ function endsWith(/* str, substr */) {
   throw new Error('Not implemented');
 }
 
-/**
+/** 14
  * Returns a time string in the "mm:ss" format.
  *
  * @param {number} minutes - The number of minutes (non-negative integer).
@@ -229,7 +229,7 @@ function formatTime(/* minutes, seconds */) {
   throw new Error('Not implemented');
 }
 
-/**
+/** 15
  * Returns a string in reverse order.
  *
  * @param {string} str - The input string.
@@ -243,7 +243,7 @@ function reverseString(/* str */) {
   throw new Error('Not implemented');
 }
 
-/**
+/** 16
  * Returns a string with characters in alphabetical order.
  *
  * @param {string} str - The input string.
@@ -258,7 +258,7 @@ function orderAlphabetically(/* str */) {
   throw new Error('Not implemented');
 }
 
-/**
+/** 17
  * Checks if a given string contains a specified substring.
  *
  * @param {string} str - The input string to search within.
@@ -274,7 +274,7 @@ function containsSubstring(/* str, substring */) {
   throw new Error('Not implemented');
 }
 
-/**
+/** 18
  * Returns the number of vowels in the string.
  * Vowels: 'a', 'e', 'i', 'o', 'u', 'y', 'A', 'E', 'I', 'O', 'U', 'Y'.
  *
@@ -292,7 +292,7 @@ function countVowels(/* str */) {
   throw new Error('Not implemented');
 }
 
-/**
+/** 19
  * Returns true if the string is a palindrome; otherwise false.
  * https://en.wikipedia.org/wiki/Palindrome
  *
@@ -309,7 +309,7 @@ function isPalindrome(/* str */) {
   throw new Error('Not implemented');
 }
 
-/**
+/** 20
  * Find the longest word in the sentence. If there are multiple longest words,
  * the function returns the first one encountered.
  *
@@ -325,7 +325,7 @@ function findLongestWord(/* sentence */) {
   throw new Error('Not implemented');
 }
 
-/**
+/** 21
  * Returns the string where each word is reversed.
  *
  * @param {string} str - The input string.
@@ -339,7 +339,7 @@ function reverseWords(/* str */) {
   throw new Error('Not implemented');
 }
 
-/**
+/** 22
  * Inverts the case of each character in the given string.
  *
  * @param {string} str - The input string.
@@ -354,7 +354,7 @@ function invertCase(/* str */) {
   throw new Error('Not implemented');
 }
 
-/**
+/** 23
  * Returns the result of string template and given parameters firstName and lastName.
  * Please do not use concatenation, use template string :
  * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/template_strings
@@ -371,7 +371,7 @@ function getStringFromTemplate(/* firstName, lastName */) {
   throw new Error('Not implemented');
 }
 
-/**
+/** 24
  * Extracts a name from template string 'Hello, First_Name Last_Name!'.
  *
  * @param {string} value - The input value.
@@ -385,7 +385,7 @@ function extractNameFromTemplate(/* value */) {
   throw new Error('Not implemented');
 }
 
-/**
+/** 25
  * Remove the first and last angle brackets from tag string
  *
  * @param {string} str - The input tag.
@@ -400,7 +400,7 @@ function unbracketTag(/* str */) {
   throw new Error('Not implemented');
 }
 
-/**
+/** 26
  * Extracts e-mails from single string with e-mails list delimited by semicolons
  *
  * @param {string} str - The input string.
@@ -419,7 +419,7 @@ function extractEmails(/* str */) {
   throw new Error('Not implemented');
 }
 
-/**
+/** 27
  * Encode specified string with ROT13 cipher
  * See details:  https://en.wikipedia.org/wiki/ROT13
  *
@@ -439,7 +439,7 @@ function encodeToRot13(/* str */) {
   throw new Error('Not implemented');
 }
 
-/**
+/** 28
  * Returns playid card id.
  *
  * Playing cards initial deck includes the cards in the following order:
